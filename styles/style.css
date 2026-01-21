@@ -186,3 +186,36 @@ header {
   gap: 24px;
   align-items: center;
 }
+
+/* About section css here */
+.about {
+  padding: 50px 200px 120px;
+  background-color: #1a0b2e;
+  text-align: center;
+}
+.about-des {
+  margin: 0 auto;
+}
+.about-h {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 16px;
+}
+.about-p {
+  line-height: 2;
+  color: white;
+  margin-bottom: 80px;
+}
+.about-list {
+  margin-top: 80px;
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.about li {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 240px;
+}
